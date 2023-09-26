@@ -1,0 +1,26 @@
+{
+  "name": "mlem-trending",
+  "version": "1.0.0",
+  "description": "The application fetches and aggrigates \"trending\" data in the Lemmy-verse and is used for the iOS Lemmy client Mlem.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "mlem",
+    "lemmy"
+  ],
+  "author": "Jake Shirley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.7.0"
+  },
+  "dependencies": {
+    "console-table-printer": "^2.11.2",
+    "runtypes": "^6.7.0",
+    "typescript": "^5.2.2"
+  }
+}
